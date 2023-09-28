@@ -1,16 +1,24 @@
 <ion-header [translucent]="true">
   <ion-toolbar>
     <ion-title>
-      Inicio
+      El gato
     </ion-title>
   </ion-toolbar>
 </ion-header>
 
 <ion-content [fullscreen]="true">
-    <ion-toolbar>
-      <ion-title size="large">Tab inicio</ion-title>
-    </ion-toolbar>
-  <app-explore-container name="Inicio"></app-explore-container>
+  <ion-card>
+    <img alt="gato" src="assets/gato.jpeg" />
+    <ion-card-header>
+      <ion-card-title>El gran gato</ion-card-title>
+      <ion-card-subtitle>En verdad es un gato pequeño</ion-card-subtitle>
+    </ion-card-header>
+  
+    <ion-card-content>
+      Texto sobre un gato que en verdad es pequeño pero el titulo dice que es grande
+    </ion-card-content>
+  </ion-card>
+ 
 </ion-content>
 
 <!-- <ion-footer>Pie Página</ion-footer> -->

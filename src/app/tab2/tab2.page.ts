@@ -8,5 +8,5 @@ import { Component } from '@angular/core';
 export class Tab2Page {
 
   constructor() {}
-
+  lista:Array<any>=[{name: "Lechuga"},{name: "Tomate"},{name: "Alcachofa"} ];
 }
